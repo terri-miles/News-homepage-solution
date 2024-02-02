@@ -27,5 +27,5 @@ Users should be able to:
 
 ### Screenshot
 
-![Website Screenshot](./screenshot.PNG)
+![Website Screenshot](./screenshot.png)
 
