@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/favicon-32x32.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>W | The Bright Future of Web 3.0</title>
+
+    <!-- Linking an external JavaScript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- navbar starts here -->
+    <nav>
+      <div class="nav-items" id="navbar-items">
+        <img src="./images/logo.svg" alt="web-logo" />
+        <div class="nav-links" id="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+          <img src="./images/icon-menu.svg" alt="menu icon" id="nav-menu">
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section starts here -->
+    <section>
+      <div class="grid-container">
+        <!-- column 1 -->
+        <div class="col-1-box">
+          <img src="./images/image-web-3-desktop.jpg" alt="web-3-desktop" class="img-1" />
+          <img src="./images/image-web-3-mobile.jpg" alt="web-3-mobile" class="img-2">
+          <div class="col-1-text-wrapper">
+            <h1>
+              The Bright <br />Future of
+              Web 3.0?
+            </h1>
+            <div class="col-1-text">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+        <!-- column 2 -->
+        <div class="col-2-box">
+            <h2>New</h2>
+            <div class="col-2-item1">
+                <h3>New Hydrogen VS Electric Cars</h3>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <div class="col-2-item2">
+                <h3>The Downsides of AI Artistry</h3>
+                <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+            <div class="col-2-item3">
+                <h3>Is VC Funding Drying Up?</h3>
+                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- post section -->
+    <section>
+      <div class="post-container">
+        <div class="post-content">
+          <img src="./images/image-retro-pcs.jpg" alt="">
+          <div class="post-body">
+            <h3>01</h3>
+            <h4>Reviving Retro PCs</h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="post-content">
+          <img src="./images/image-top-laptops.jpg" alt="">
+          <div class="post-body">
+            <h3>02</h3>
+            <h4>Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="post-content">
+          <img src="./images/image-gaming-growth.jpg" alt="">
+          <div class="post-body">
+            <h3>03</h3>
+            <h4>The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Mobile Navbar -->
+    <section class="mobile-nav" onclick="handleClose()">
+      <div class="mobile-nav-container">
+        <div class="mobile-nav-close"><img src="./images/icon-menu-close.svg" alt="mobile-nav-close" id="nav-close"></div>
+        <div class="mobile-nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
