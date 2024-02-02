@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Website Screenshot](.images/screenshot.png)
+![Website Screenshot](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [gitHub](https://your-solution-url.com)
+- Solution URL: [gitHub](https://github.com/terri-miles/News-homepage-solution))
 - Live Site URL: [Web 3.0 App](https://bright-future-web-3.netlify.app/)
 
 ## My process
